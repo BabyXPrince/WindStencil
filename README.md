@@ -70,14 +70,14 @@ Speedups below are **wall-clock** of the whole program vs. the same **unoptimize
 ### Scalability
 
 - **Weak scaling:** reported parallel efficiency **~91.16%** at **1024 GPUs** (paper configuration).
-https://github.com/BabyXPrince/WindStencil/tree/22d545bec25650c6f14137887a336cdca229c821/docs/images/weak.png
+!(https://github.com/BabyXPrince/WindStencil/tree/22d545bec25650c6f14137887a336cdca229c821/docs/images/weak.png)
 
 - **Strong scaling** (fixed **600M** cells, 9600×256×256, MI200 cluster):
 
 | GPUs | 64 | 128 | 256 | 512 | 1024 |
 |------|-----|-----|-----|-----|------|
 | Efficiency (vs. 64-GPU baseline) | 100% | 92.37% | 86.17% | 75.34% | 54.66% |
-https://github.com/BabyXPrince/WindStencil/tree/22d545bec25650c6f14137887a336cdca229c821/docs/images/strong.png
+!(https://github.com/BabyXPrince/WindStencil/tree/22d545bec25650c6f14137887a336cdca229c821/docs/images/strong.png)
 
 
 ### Numerical correctness
