@@ -90,11 +90,11 @@ After **10,000** steps, maximum **relative** differences vs. the baseline implem
 
 - **Total energy:** **1.12×10⁻⁵**
 
-<img src="./docs/images/energy.png" alt="Total energy" style="width:50%;" />
+<img src="./docs/images/energy.png" alt="Total energy" style="width:60%;" />
 
 - **Total temperature:** **4.16×10⁻⁵**
 
-<img src="./docs/images/T.png" alt="Total temperature" style="width:50%;" />
+<img src="./docs/images/T.png" alt="Total temperature" style="width:60%;" />
 
 
 ---
