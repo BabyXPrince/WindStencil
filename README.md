@@ -71,7 +71,7 @@ Speedups below are **wall-clock** of the whole program vs. the same **unoptimize
 
 - **Weak scaling:** reported parallel efficiency **~91.16%** at **1024 GPUs** (paper configuration).
 
-<img src="./docs/images/weak" alt="Weak scaling" style="width:50%;" />
+<img src="./docs/images/weak.png" alt="Weak scaling" style="width:50%;" />
 
 - **Strong scaling** (fixed **600M** cells, 9600×256×256, MI200 cluster):
 
