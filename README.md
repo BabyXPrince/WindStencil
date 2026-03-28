@@ -94,7 +94,6 @@ After **10,000** steps, maximum **relative** differences vs. the baseline implem
 
 <img src="./docs/images/T.png" alt="Total temperature" style="width:50%;" />
 
-Add automated checks under `tests/` when you publish a reproducible artifact (optional).
 
 ---
 
