@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" role="img" aria-label="Repository directory layout">
+  <rect width="720" height="280" fill="#ffffff"/>
+  <text x="360" y="28" text-anchor="middle" fill="#24292f" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="600">Source tree (logical)</text>
+
+  <rect x="24" y="48" width="200" height="36" rx="6" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="124" y="72" text-anchor="middle" fill="#0969da" font-family="Consolas, monospace" font-size="12">include/windstencil/</text>
+
+  <rect x="24" y="100" width="160" height="32" rx="6" fill="#fff8c5" stroke="#d4a72c"/>
+  <text x="104" y="121" text-anchor="middle" fill="#24292f" font-family="Consolas, monospace" font-size="11">src/kernels/</text>
+
+  <rect x="200" y="100" width="160" height="32" rx="6" fill="#dafbe1" stroke="#1a7f37"/>
+  <text x="280" y="121" text-anchor="middle" fill="#24292f" font-family="Consolas, monospace" font-size="11">src/solver/</text>
+
+  <rect x="376" y="100" width="160" height="32" rx="6" fill="#ffebe9" stroke="#cf222e"/>
+  <text x="456" y="121" text-anchor="middle" fill="#24292f" font-family="Consolas, monospace" font-size="11">src/boundary/</text>
+
+  <rect x="552" y="100" width="144" height="32" rx="6" fill="#f6f8fa" stroke="#57606a"/>
+  <text x="624" y="121" text-anchor="middle" fill="#24292f" font-family="Consolas, monospace" font-size="11">src/io/</text>
+
+  <rect x="24" y="148" width="144" height="32" rx="6" fill="#f6f8fa" stroke="#57606a"/>
+  <text x="96" y="169" text-anchor="middle" fill="#24292f" font-family="Consolas, monospace" font-size="11">src/mpi/</text>
+
+  <rect x="184" y="148" width="176" height="32" rx="6" fill="#f6f8fa" stroke="#57606a"/>
+  <text x="272" y="169" text-anchor="middle" fill="#24292f" font-family="Consolas, monospace" font-size="11">src/runtime/</text>
+
+  <rect x="376" y="148" width="144" height="32" rx="6" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="448" y="169" text-anchor="middle" fill="#0969da" font-family="Consolas, monospace" font-size="11">src/app/</text>
+
+  <text x="360" y="230" text-anchor="middle" fill="#57606a" font-family="Segoe UI, system-ui, sans-serif" font-size="11">WENO fusion + scan + prefetch ’ kernels · full NS stack ’ solver + boundary + &</text>
+</svg>
