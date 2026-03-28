@@ -11,6 +11,8 @@
 
 **WindStencil** is a GPU architecture and implementation methodology for **high-order (e.g. 7th-order) three-dimensional WENO** stencils inside **production-style compressible Navier–Stokes** solvers. Generic stencil optimizations rarely survive the full **split-form inviscid flux + multi-variable 3D templates + face/center alignment** found in real CFD codes; this repository is the **reference implementation** of the techniques described in the paper—**block-fused 3D WENO (BF3W)**, **yz-plane scanning** to match SIMT execution to the stencil’s geometry, and **multi-level software prefetching** to hide memory latency behind the kernel’s large FP64 arithmetic intensity.
 
+<img src="./docs/images/Framework.png" alt="Framework of WindStencil" style="width:50%;" />
+
 The code is organized around a **full solver stack** (time integration, boundaries, I/O, MPI) so results reflect **end-to-end** behavior, not an isolated micro-benchmark. The implementation targets **AMD GPUs via HIP/ROCm**; **OpenCFD-SC** lineage appears in file headers and provides the surrounding solver context.
 
 **Where the novel kernels live:** **`src/kernels/OCFD_split.cpp`** (fused path, scan + prefetch). Supporting WENO machinery: **`src/kernels/OCFD_Schemes.cpp`**, **`src/kernels/commen_kernel.cpp`**.
