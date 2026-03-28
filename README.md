@@ -87,7 +87,12 @@ Speedups below are **wall-clock** of the whole program vs. the same **unoptimize
 After **10,000** steps, maximum **relative** differences vs. the baseline implementation on monitored global quantities:
 
 - **Total energy:** **1.12×10⁻⁵**
+
+<img src="./docs/images/energy.png" alt="Total energy" style="width:50%;" />
+
 - **Total temperature:** **4.16×10⁻⁵**
+
+<img src="./docs/images/T.png" alt="Total temperature" style="width:50%;" />
 
 Add automated checks under `tests/` when you publish a reproducible artifact (optional).
 
