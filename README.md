@@ -86,7 +86,7 @@ Speedups below are **wall-clock** of the whole program vs. the same **unoptimize
 
 ### Numerical correctness
 
-After **10,000** steps, maximum **relative** differences vs. the baseline implementation on monitored global quantities:
+"Total Energy" and "Total Temperature" are the two key computational results output by OpenCFD step by step during iterations. Therefore, we validated correctness after 10,000 iterations by comparing these two metrics before and after optimization. The maximum relative errors over 10,000 steps are 1.1230453396E-05 and 4.1609635916E-05, respectively. After **10,000** steps, maximum **relative** differences vs. the baseline implementation on monitored global quantities:
 
 - **Total energy:** **1.12×10⁻⁵**
 
