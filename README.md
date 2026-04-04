@@ -39,7 +39,7 @@ For a **map from repository layout to the paper’s sections**, see **`docs/ARCH
 | Platform | FP64 % of peak (paper) | Kernel speedup vs. decomposed OpenCFD baseline (paper) |
 |----------|-------------------------|--------------------------------------------------------|
 | AMD MI60 | **37.2%** (up to ~37.2% on listed grids) | **~424%** (i.e. ~4.24× faster kernel time) |
-| AMD MI200 family | **~30.8%** of architectural FP64 peak (configuration-dependent) | **~468%** (i.e. ~4.68× faster kernel time) |
+| AMD MI200 series | **~30.8%** of architectural FP64 peak (configuration-dependent) | **~468%** (i.e. ~4.68× faster kernel time) |
 
 **Roofline / bandwidth narrative.** The stencil is still **memory-sensitive** on a roofline chart; we therefore also report performance relative to an **attainable roof** at the kernel’s **operational intensity** (O.I., FLOP/byte moved). On MI200-class hardware, reported **attainable-roof** utilization reaches on the order of **51%** on representative grids (see paper tables for O.I. per grid).
 
@@ -57,7 +57,7 @@ Speedups below are **wall-clock** of the whole program vs. the same **unoptimize
 | 480×192×128 | 456.80% | 217.24% |
 | 480×512×64 | 485.52% | 215.29% |
 
-**MI200 family**
+**MI200 series**
 
 | Grid | Kernel-focused gain | Full-application gain |
 |------|---------------------|------------------------|
