@@ -67,7 +67,7 @@ Speedups below are **wall-clock** of the whole program vs. the same **unoptimize
 | 600×192×128 | 363.51% | 188.14% |
 | 600×256×128 | 420.38% | 188.94% |
 
-*Inviscid work optimized by WindStencil accounts for a large fraction of total runtime in the evaluated configuration (see paper §4.1); remaining phases limit end-to-end multiples.*
+*Inviscid work optimized by WindStencil accounts for a large fraction of total runtime in the evaluated configuration (over 70% of the total program execution time, see paper §4.1); remaining phases limit end-to-end multiples.*
 
 ### Scalability
 
